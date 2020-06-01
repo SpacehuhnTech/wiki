@@ -1,0 +1,17 @@
+baseURL = "https://spacehuhn.wiki/"
+languageCode = "en-us"
+title = "Spacehuhn Wiki"
+theme = "learn"
+
+[params]
+  showVisitedLinks = true
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 10
+#  [languages.de]
+#    contentDir = "content/de"
+#    languageName = "Deutsch"
+#    weight = 20
