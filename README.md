@@ -2,6 +2,8 @@
 
 **Source code for [spacehuhn.wiki](https://spacehuhn.wiki)**  
 
+![github pages](https://github.com/SpacehuhnTech/wiki/workflows/github%20pages/badge.svg)  
+
 ## How to contribute
 
 1. [Install Hugo](https://gohugo.io/getting-started/installing)
