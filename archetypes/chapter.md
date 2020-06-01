@@ -3,7 +3,13 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 weight: 10 # The smaller the higher position in the navigation and vice versa
 tags: []
+chapter: true
+pre: "<b>X. </b>"
 ---
+
+### Chapter X
+
+# {{ replace .Name "-" " " | title }}
 
 
 
@@ -11,7 +17,6 @@ tags: []
 
 
 
----
 
 {{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/{{ replace .Path "\\" "/" }}" icon="fab fa-github" %}}Source{{% /button %}}
 

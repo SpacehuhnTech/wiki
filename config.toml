@@ -5,6 +5,7 @@ theme = "learn"
 
 [params]
   showVisitedLinks = true
+  themeVariant = "spacehuhn"
 
 [languages]
   [languages.en]
