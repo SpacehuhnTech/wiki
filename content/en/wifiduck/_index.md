@@ -31,6 +31,6 @@ tags: []
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for wifiduck/_index.md&body=I'd like to suggest changes for `wifiduck/_index.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/wifiduck/_index.md)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/_index.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}} Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for wifiduck/_index.md&body=I'd like to suggest changes for `wifiduck/_index.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/wifiduck/)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/_index.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/_index.md" icon="fab fa-github" %}} Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/_index.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}

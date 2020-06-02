@@ -23,6 +23,6 @@ This wiki is still in development.
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for _index.md&body=I'd like to suggest changes for `_index.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/_index.md)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/_index.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}} Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for _index.md&body=I'd like to suggest changes for `_index.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/_index.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/_index.md" icon="fab fa-github" %}} Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/_index.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
