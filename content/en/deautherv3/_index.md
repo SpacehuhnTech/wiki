@@ -1,7 +1,7 @@
 ---
 title: "Deauther 3.0.0"
 date: 2020-06-03T14:30:54+02:00
-weight: 10 # The smaller the higher position in the navigation and vice versa
+weight: 2 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
