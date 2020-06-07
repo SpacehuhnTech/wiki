@@ -5,29 +5,23 @@ weight: 3
 tags: []
 ---
 
-- [Disclaimer](#disclaimer)
-- [About](#about)
-- [Changes](#changes)
-- [Hardware](#hardware)
-  - [Supported Boards](#supported-boards)
-  - [Connections](#connections)
-  - [PCB](#pcb)
-  - [DSTIKE WiFi Duck](#dstike-wifi-duck)
-- [Flash Software](#flash-software)
-  - [Preparations](#preparations)
-  - [Flash Atmega32u4](#flash-atmega32u4)
-  - [Flash ESP8266](#flash-esp8266)
-  - [Unbrick Atmega32u4](#unbrick-atmega32u4)
-- [Usage](#usage)
-  - [Ducky Script](#ducky-script)
-  - [CLI](#cli)
-  - [Debug](#debug)
-  - [FAQ](#faq)
-- [Development](#development)
-  - [Edit Web Files](#edit-web-files)
-  - [Translate Keyboard Layout](#translate-keyboard-layout)
-- [License](#license)
-- [Credits](#credits)
+  ![WiFi Duck Logo](/media/wifi_duck/logo.png?height=100px)
+
+{{< center >}}
+<b>Keystroke injection attack platform</b>
+<br>
+A worthy successor of the <a href="https://github.com/spacehuhn/wifi_ducky/">WiFi Ducky</a> project
+<br>
+<br>
+  🐦 <a href="https://twitter.com/spacehuhn">Twitter</a>
+| 📺 <a href="https://www.youtube.com/spacehuhn">YouTube</a>
+| 🌍 <a href="https://spacehuhn.io">spacehuhn.io</a>
+{{< /center >}}
+
+![](/media/wifi_duck/usage.png?width=400px)
+
+![](/media/wifi_duck/showcase.gif)
+**[Watch the full video](https://www.youtube.com/watch?v=sSJuGXd8QRk)**
 
 ---
 
