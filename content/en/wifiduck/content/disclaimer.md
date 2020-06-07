@@ -1,7 +1,7 @@
 ---
 title: "Disclaimer"
 date: 2020-06-07T18:33:41+02:00
-weight: 10 # The smaller the higher position in the navigation and vice versa
+weight: 2 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
