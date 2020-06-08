@@ -1,6 +1,6 @@
 ---
 title: "Hardware"
-date: 2020-06-07T22:08:03+02:00
+date: 2020-06-08T17:01:12+02:00
 weight: 5 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
@@ -23,6 +23,6 @@ you'll obviously need soldering equipment and a bit of experience using it.
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for /wifiduck/content/hardware.md&body=I'd like to suggest changes for `/wifiduck/content/hardware.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki//wifiduck/content/hardware)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/hardware.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for wifiduck/content/hardware.md&body=I'd like to suggest changes for `wifiduck/content/hardware.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/wifiduck/content/hardware)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/content/hardware.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/hardware.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/wifiduck/content/hardware.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
