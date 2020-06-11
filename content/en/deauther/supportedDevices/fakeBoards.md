@@ -1,7 +1,7 @@
 ---
 title: "Fake Boards"
 date: 2020-06-08T23:08:17+02:00
-weight:  # The smaller the higher position in the navigation and vice versa
+weight: 5 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
