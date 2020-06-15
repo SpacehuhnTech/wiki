@@ -30,6 +30,6 @@ tags: []
 7) You might want to adjust the display, LED and button configurations. You can do that in the `A_config.h` file (second tab in Arduino). You can also find predefined configfor certain boards there: [A_config.h](https://github.com/SpacehuhnTech/esp8266_deauther/blob/v2/esp8266_deauther/A_config.h#L7).  
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/installation/compiling.md&body=I'd like to suggest changes for `deauther/installation/compiling.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/installation/compiling)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/installation/compiling.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/installation/compiling.md&body=I'd like to suggest changes for `deauther/installation/compiling.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/installation/compiling)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/main/content/en/deauther/installation/compiling.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/installation/compiling.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/main/content/en/deauther/installation/compiling.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}

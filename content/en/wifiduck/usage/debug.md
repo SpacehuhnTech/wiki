@@ -19,6 +19,6 @@ If that causes problems with the i2c connection, try to reset the ESP8266 too.
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for /wifiduck/content/usage/debug.md&body=I'd like to suggest changes for `/wifiduck/content/usage/debug.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki//wifiduck/content/usage/debug)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/usage/debug.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for /wifiduck/content/usage/debug.md&body=I'd like to suggest changes for `/wifiduck/content/usage/debug.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki//wifiduck/content/usage/debug)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/main/content/en//wifiduck/content/usage/debug.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/usage/debug.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/main/content/en//wifiduck/content/usage/debug.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}

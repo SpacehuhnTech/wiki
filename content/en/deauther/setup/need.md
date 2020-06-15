@@ -34,6 +34,6 @@ For a beginner it's recommended to only use 3 buttons (you can add more later), 
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/setup/need.md&body=I'd like to suggest changes for `deauther/setup/need.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/setup/need)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/setup/need.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/setup/need.md&body=I'd like to suggest changes for `deauther/setup/need.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/setup/need)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/main/content/en/deauther/setup/need.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/setup/need.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{% button href="https://github.com/SpacehuhnTech/wiki/blob/main/content/en/deauther/setup/need.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
