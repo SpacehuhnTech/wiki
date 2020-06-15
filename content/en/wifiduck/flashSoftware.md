@@ -69,4 +69,4 @@ Now it should flash the sketch and the correct bootloader.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

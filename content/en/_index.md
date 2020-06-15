@@ -23,4 +23,4 @@ This wiki is still in development.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

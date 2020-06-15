@@ -26,4 +26,4 @@ All serial commands are listed in the [serialcommands.md](https://github.com/spa
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

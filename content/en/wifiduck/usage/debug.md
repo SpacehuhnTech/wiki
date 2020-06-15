@@ -19,4 +19,4 @@ If that causes problems with the i2c connection, try to reset the ESP8266 too.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

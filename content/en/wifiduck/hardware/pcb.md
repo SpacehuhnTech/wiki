@@ -26,4 +26,4 @@ just the ones mentioned in [Connections](#connections), excluding the LED.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

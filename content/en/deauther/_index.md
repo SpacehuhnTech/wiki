@@ -63,4 +63,4 @@ How to change the code for your needs.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

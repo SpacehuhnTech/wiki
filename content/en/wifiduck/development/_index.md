@@ -20,4 +20,4 @@ Now you just need to [flash](#flash-software) the ESP8266 again.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

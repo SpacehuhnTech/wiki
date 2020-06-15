@@ -27,4 +27,4 @@ Your scripts are saved on the device itself, so you don't need a micro SD card e
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

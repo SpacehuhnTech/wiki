@@ -121,4 +121,4 @@ This is not a bug, it's a feature. To disable it, you have to set the `attackTim
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

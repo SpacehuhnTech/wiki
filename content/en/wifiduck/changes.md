@@ -16,4 +16,4 @@ Changes since the [WiFi Ducky](https://github.com/spacehuhn/wifi_ducky/) predece
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

@@ -85,4 +85,4 @@ STRING Hello World!
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

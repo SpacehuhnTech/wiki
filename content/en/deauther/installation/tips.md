@@ -35,4 +35,4 @@ If this doesn't help, try out different cables (some USB cables are only for cha
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

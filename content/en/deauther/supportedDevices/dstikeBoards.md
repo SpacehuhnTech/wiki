@@ -19,4 +19,4 @@ They are made especially for this project and come with a sharp 1.3 inch OLED sc
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

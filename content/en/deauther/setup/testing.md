@@ -22,4 +22,4 @@ To test the LED(s), you can use the `led <r> <g> <b>` command. For example `led 
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

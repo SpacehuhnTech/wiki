@@ -41,4 +41,4 @@ Go back to Operation and click Flash.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

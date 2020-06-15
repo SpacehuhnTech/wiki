@@ -23,4 +23,4 @@ Here are some of the biggest shops (mostly on AliExpress) you better stay away f
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

@@ -31,4 +31,4 @@ you'll obviously need soldering equipment and a bit of experience using it.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

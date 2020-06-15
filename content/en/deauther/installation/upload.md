@@ -51,4 +51,4 @@ It is also very important to note, that you **must give the SPIFFS some memory**
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

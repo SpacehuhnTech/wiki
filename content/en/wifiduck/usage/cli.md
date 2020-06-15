@@ -41,4 +41,4 @@ If a stream is open, everything you type (except messages containing exactly `cl
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

@@ -44,4 +44,4 @@ Also don't forget that you only need 3 buttons, every other button is optional.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

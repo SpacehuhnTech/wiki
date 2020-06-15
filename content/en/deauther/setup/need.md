@@ -34,4 +34,4 @@ For a beginner it's recommended to only use 3 buttons (you can add more later), 
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

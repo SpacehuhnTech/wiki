@@ -42,4 +42,4 @@ By default the LED on GPIO 16 (NodeMCU on-board LED) and the LED on GPIO 2 (ESP-
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

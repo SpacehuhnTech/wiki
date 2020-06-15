@@ -16,4 +16,4 @@ under Tools in the Arduino IDE.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

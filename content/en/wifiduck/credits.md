@@ -16,4 +16,4 @@ Other software used for this project:
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

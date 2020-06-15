@@ -14,4 +14,4 @@ Adafruit has a Feather board with the ESP8266 in their sore. Those are a bit mor
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

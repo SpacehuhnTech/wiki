@@ -36,4 +36,4 @@ If you like to add a Neopixel (WS2812b) LED:
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

@@ -30,4 +30,4 @@ The Atmega32u4 is the USB keyboard, the ESP8266 is the WiFi access point.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

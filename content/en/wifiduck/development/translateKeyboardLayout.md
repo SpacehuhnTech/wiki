@@ -84,4 +84,4 @@ ENTER
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

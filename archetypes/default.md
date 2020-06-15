@@ -9,4 +9,4 @@ tags: []
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

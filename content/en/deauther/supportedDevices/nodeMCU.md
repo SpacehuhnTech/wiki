@@ -20,4 +20,4 @@ It has a LiPo charger on-board and allows you to connect an external antenna for
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

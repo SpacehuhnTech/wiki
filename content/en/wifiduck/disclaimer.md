@@ -14,4 +14,4 @@ tags: []
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

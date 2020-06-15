@@ -25,4 +25,4 @@ A worthy successor of the <a href="https://github.com/spacehuhn/wifi_ducky/">WiF
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

@@ -35,4 +35,4 @@ and `NodeMCU 1.0 (ESP-12E Module)` for the ESP8266.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

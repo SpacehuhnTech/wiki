@@ -10,4 +10,4 @@ See the [license file](LICENSE) for details.
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

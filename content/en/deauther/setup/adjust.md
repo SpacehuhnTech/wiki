@@ -20,4 +20,4 @@ See [Installation](https://github.com/spacehuhn/esp8266_deauther/wiki/Installati
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}

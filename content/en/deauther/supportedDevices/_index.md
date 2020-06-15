@@ -21,4 +21,4 @@ If you want to assemble the project yourself, you can find the parts you need [h
 
 ---
 
-{{< wikibuttons >}}
+{{< footerbuttons >}}
