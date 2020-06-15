@@ -82,9 +82,6 @@ ENTER
 10. Add a link to your layout to [README](README.md), to [web/index.html](web/index.html) and please feel free to improve this tutorial to help future translators!
 11. [Create a Pull Request](https://help.github.com/en/articles/creating-a-pull-request)
 
-
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for /wifiduck/content/development/translateKeyboardLayout.md&body=I'd like to suggest changes for `/wifiduck/content/development/translateKeyboardLayout.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki//wifiduck/content/development/translateKeyboardLayout)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/main/content/en//wifiduck/content/development/translateKeyboardLayout.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/main/content/en//wifiduck/content/development/translateKeyboardLayout.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< wikibuttons >}}
