@@ -16,3 +16,6 @@ theme = "learn"
 #    contentDir = "content/de"
 #    languageName = "Deutsch"
 #    weight = 20
+
+[markup.goldmark.renderer]
+unsafe= true

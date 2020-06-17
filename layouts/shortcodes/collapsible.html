@@ -1,0 +1,6 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $title := .Get "title" | default (.Get 0) }}
+<button onclick="var content = this.nextElementSibling;if (content.style.display === 'block') content.style.display = 'none'; else content.style.display = 'block';" style="margin-top: 2em; background-color:#33a1ff; color:#fff; padding:1rem; width:100%; border:none; text-align:left; font-size:1.25rem;"><i class="fas fa-chevron-circle-down"></i>&nbsp;{{$title}}</button>
+<div style="padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1;">
+    {{.Inner | safeHTML}}
+</div>
