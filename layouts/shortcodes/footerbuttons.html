@@ -1,10 +1,22 @@
 {{ $path := .Page.File.Path }}
 {{ $source := printf "https://github.com/SpacehuhnTech/wiki/blob/main/content/en/%s" $path }}
 {{ $url := printf "https://spacehuhn.wiki/%s" (replace (replace $path "\\" "/") "_index.md" "") }}
-{{ $title := printf "Changes for %s" $path }}
-{{ $body := printf "I'd like to suggest changes for `%s`\r\n:link:[Wiki](%s)\r\n:link:[Source](%s)\r\n<!-- Describe your desired changes below: -->" $path $url $source}}
 
-<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title={{$title}}&body={{$body}}" target="_blank"
+{{ $question_title := printf "Question about %s" $path }}
+{{ $question_body := printf "I have a question regarding the information on the [Wiki](%s) at `%s`\r\n<!-- Describe your desired changes below: -->" $url $path}}
+{{ $question_labels := "question" }}
+
+{{ $changes_title := printf "Changes for %s" $path }}
+{{ $changes_body := printf "I'd like to suggest changes for `%s`\r\n:link:[Wiki](%s)\r\n:link:[Source](%s)\r\n<!-- Describe your desired changes below: -->" $path $url $source}}
+{{ $changes_labels := "improvement"}}
+
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title={{$question_title}}&body={{$question_body}}&labels={{$question_labels}}" target="_blank"
+    class="btn btn-default">
+    <i class="fas fa-question"></i>
+    &nbsp;I have a question
+</a>
+
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title={{$changes_title}}&body={{$changes_body}}&labels={{$changes_labels}}" target="_blank"
     class="btn btn-default">
     <i class="fas fa-comment"></i>
     &nbsp;Suggest changes
