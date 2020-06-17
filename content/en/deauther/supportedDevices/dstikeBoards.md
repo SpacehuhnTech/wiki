@@ -19,6 +19,4 @@ They are made especially for this project and come with a sharp 1.3 inch OLED sc
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/supportedDevices/dstikeBoards.md&body=I'd like to suggest changes for `deauther/supportedDevices/dstikeBoards.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/supportedDevices/dstikeBoards)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/supportedDevices/dstikeBoards.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/supportedDevices/dstikeBoards.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

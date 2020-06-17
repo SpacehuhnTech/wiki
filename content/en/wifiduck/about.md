@@ -25,9 +25,6 @@ from within the web interface.
 You don't need to install an app; you don't need to log in, and you don't need to compile or flash anything.
 Your scripts are saved on the device itself, so you don't need a micro SD card either. 
 
-
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for /wifiduck/content/about.md&body=I'd like to suggest changes for `/wifiduck/content/about.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki//wifiduck/content/about)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/about.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en//wifiduck/content/about.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

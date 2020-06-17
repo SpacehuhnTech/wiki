@@ -26,6 +26,4 @@ All serial commands are listed in the [serialcommands.md](https://github.com/spa
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/usage/_index.md&body=I'd like to suggest changes for `deauther/usage/_index.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/usage/)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/usage/_index.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/usage/_index.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

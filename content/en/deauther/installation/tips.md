@@ -33,9 +33,6 @@ If you're not sure which chip your board is using, just try both.
 
 If this doesn't help, try out different cables (some USB cables are only for charging and don't have data lines) or plug it to a different USB port.
 
-
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/installation/tips.md&body=I'd like to suggest changes for `deauther/installation/tips.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/installation/tips)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/installation/tips.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/installation/tips.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

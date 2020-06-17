@@ -14,6 +14,4 @@ Adafruit has a Feather board with the ESP8266 in their sore. Those are a bit mor
 
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/supportedDevices/wemos_adafruit.md&body=I'd like to suggest changes for `deauther/supportedDevices/wemos_adafruit.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/supportedDevices/wemos_adafruit)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/supportedDevices/wemos_adafruit.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/supportedDevices/wemos_adafruit.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

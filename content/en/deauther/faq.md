@@ -119,9 +119,6 @@ This usually occurs because client devices want to check whether or not the netw
 ### Attack stops after a while
 This is not a bug, it's a feature. To disable it, you have to set the `attackTimeout` setting to `0`.  
 
-
 ---
 
-{{% button href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes for deauther/faq.md&body=I'd like to suggest changes for `deauther/faq.md`%0A%0A:link: [Wiki](https://spacehuhn.wiki/deauther/faq)%0A:link: [Source](https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/faq.md)%0A%0A<!-- Describe your desired changes -->" icon="fas fa-comment" %}}&nbsp;Suggest changes{{% /button %}}
-
-{{% button href="https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/faq.md" icon="fab fa-github" %}}&nbsp;Source{{% /button %}}
+{{< footerbuttons >}}

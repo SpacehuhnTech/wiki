@@ -1,0 +1,16 @@
+{{ $path := .Page.File.Path }}
+{{ $source := printf "https://github.com/SpacehuhnTech/wiki/blob/main/content/en/%s" $path }}
+{{ $url := printf "https://spacehuhn.wiki/%s" (replace (replace $path "\\" "/") "_index.md" "") }}
+{{ $title := printf "Changes for %s" $path }}
+{{ $body := printf "I'd like to suggest changes for `%s`\r\n:link:[Wiki](%s)\r\n:link:[Source](%s)\r\n<!-- Describe your desired changes below: -->" $path $url $source}}
+
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title={{$title}}&body={{$body}}" target="_blank"
+    class="btn btn-default">
+    <i class="fas fa-comment"></i>
+    &nbsp;Suggest changes
+</a>
+
+<a href="{{$source}}" target="_blank" class="btn btn-default">
+    <i class="fab fa-github"></i>
+    &nbsp;Source
+</a>
