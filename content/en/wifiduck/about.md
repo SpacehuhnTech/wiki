@@ -1,9 +1,12 @@
 ---
 title: "About"
 date: 2020-06-07T22:03:50+02:00
-weight: 3 # The smaller the higher position in the navigation and vice versa
+weight: 1 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
+
+
+![running example script](/media/wifi_duck/showcase.gif)
 
 By emulating a USB keyboard, this device can be used to remote control a computer,
 automate tasks or execute software to gain full access. All in the matter of seconds!  
@@ -24,6 +27,8 @@ You can simply plug it in, connect to its Wi-Fi network and manage all scripts
 from within the web interface.
 You don't need to install an app; you don't need to log in, and you don't need to compile or flash anything.
 Your scripts are saved on the device itself, so you don't need a micro SD card either. 
+
+![wifi duck usage steps](/media/wifi_duck/usage.png?width=400px)
 
 ---
 

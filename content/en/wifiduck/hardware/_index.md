@@ -1,19 +1,11 @@
 ---
 title: "Hardware"
 date: 2020-06-08T16:57:26+02:00
-weight: 10 # The smaller the higher position in the navigation and vice versa
+weight: 3 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
-- [Hardware](/wifiduck/hardware/hardware2)
-  - [Supported Boards](/wifiduck/hardware/supportedboards)
-  - [Connections](/wifiduck/hardware/connections)
-  - [PCB](/wifiduck/hardware/pcb)
-  - [DSTIKE WiFi Duck](/wifiduck/hardware/dstike)
-
-## Hardware
-
-[Video Tutorial](https://youtu.be/-Gmv98tUiYw)  
+{{< youtube -Gmv98tUiYw >}}
 
 This tool requires following hardware:  
 * An Atmega32u4 based board (for example: Arduino Leonardo or Pro Micro)  

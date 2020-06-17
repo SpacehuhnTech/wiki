@@ -1,7 +1,7 @@
 ---
 title: "Translate Keyboard Layout"
 date: 2020-06-07T22:40:43+02:00
-weight: 17 # The smaller the higher position in the navigation and vice versa
+weight: 2 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
@@ -10,6 +10,7 @@ Currently the supported keyboard layouts are:
 - [GB](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_gb.h)
 - [US](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_us.h)
 - [ES](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_es.h)
+- [RU (WIP)](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_ru.h)
 - [FR (ASCII only)](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/locale_fr.h)
 
 All standard keys are defined in [usb_hid_keys.h](https://github.com/spacehuhn/WiFiDuck/blob/master/atmega_duck/usb_hid_keys.h).  

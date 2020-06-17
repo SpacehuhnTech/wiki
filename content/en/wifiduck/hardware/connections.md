@@ -1,16 +1,18 @@
 ---
 title: "Connections"
 date: 2020-06-07T22:23:57+02:00
-weight: 7 # The smaller the higher position in the navigation and vice versa
+weight: 3 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
+
+![Example of a DIY build using a Wemos d1 mini, a Pro Micro and a Neopixel LED](/media/wifi_duck/diy_example.jpg?height=400px)
 
 Here's a map of the pins that need to be connected.  
 
 | ESP8266 | Atmega32u4 |
 | ------- | ---------- |
-| `D1` alias `GPIO 5` | `3` alias `SCL` |
-| `D2` alias `GPIO 4` | `2` alias `SDA` |
+| `D1` alias `GPIO 5` | `D3` alias `SCL` |
+| `D2` alias `GPIO 4` | `D2` alias `SDA` |
 | `GND` | `GND` |
 
 Both chips have to be powered in order to work.  
@@ -31,8 +33,6 @@ If you like to add a Neopixel (WS2812b) LED:
 | `GND` | `GND` |
 
 \* The Data pin can be changed later on in the software, pin 7 is just an example.  
-
-![Example of a DIY build using a Wemos d1 mini, a Pro Micro and a Neopixel LED](/media/wifi_duck/diy_example.jpg?height=400px)
 
 ---
 

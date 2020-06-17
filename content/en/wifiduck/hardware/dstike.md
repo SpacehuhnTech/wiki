@@ -1,16 +1,16 @@
 ---
-title: "Dstike Wifi Duck"
+title: "DSTIKE WiFi Duck"
 date: 2020-06-07T22:26:16+02:00
-weight: 9 # The smaller the higher position in the navigation and vice versa
+weight: 5 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
+
+![DSTIKE WiFi Duck](/media/wifi_duck/dstikeboard.jpg?height=200px)  
 
 If you like to support this project,
 Travis Lin sells a custom designed development board which comes preflashed with this software!  
 
-![DSTIKE WiFi Duck](/media/wifi_duck/dstikeboard.jpg?height=200px)  
-
-You can purchase one here:  
+You can purchase it here:  
 - [tindie](https://www.tindie.com/products/lspoplove/dstike-wifi-duck/)
 - [DSTIKE](https://dstike.com/products/dstike-wifi-duck)
 - [AliExpress](https://www.aliexpress.com/item/4000256143274.html)
@@ -18,7 +18,7 @@ You can purchase one here:
 You can update the ESP8266 over the air and flash the Atmega32u4 via Arduino,
 all while enclosed in its neat little case.  
 
-[Update Tutorial Video](https://youtu.be/e3-nsOjclsY)
+{{< youtube e3-nsOjclsY >}}
 
 If you wish to develop your own software or help improve this one,
 the 8-bit DIP-switch makes it easy for you to access the Atmega32u4 or ESP8266 independently.  

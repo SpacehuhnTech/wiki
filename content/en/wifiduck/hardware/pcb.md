@@ -1,9 +1,11 @@
 ---
-title: "Pcb"
+title: "PCBs"
 date: 2020-06-07T22:24:53+02:00
-weight: 8 # The smaller the higher position in the navigation and vice versa
+weight: 4 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
+
+![Preview of Pro Micro + Wemos d1 mini PCB](/media/wifi_duck/pcbs.jpg?height=300px)
 
 To make the DIY process easier, I designed a small PCB.  
 
@@ -21,8 +23,7 @@ That's it.
 You don't even have to solder all pins,
 just the ones mentioned in [Connections](#connections), excluding the LED.
 
-![Preview of Pro Micro + Wemos d1 mini PCB](/media/wifi_duck/pcbs.jpg?height=400px)
-![Soldered PCB](/media/wifi_duck/pcbs_soldered.jpg?height=400px)
+![Soldered PCB](/media/wifi_duck/pcbs_soldered.jpg?height=300px)
 
 ---
 

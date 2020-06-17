@@ -21,6 +21,12 @@ This wiki is still in development.
 
 ![WiFi Duck Logo](/media/wifi_duck_logo.png?height=100px)
 
+{{< center >}}
+<b>Keystroke injection attack platform</b>
+<br>
+A worthy successor to the <a href="https://github.com/spacehuhn/wifi_ducky/">WiFi Ducky</a> project
+{{< /center >}}
+
 ---
 
 {{< footerbuttons >}}
