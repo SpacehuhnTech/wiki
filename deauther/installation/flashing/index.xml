@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flashing on Spacehuhn Wiki</title><link>https://spacehuhn.wiki/deauther/installation/flashing/</link><description>Recent content in Flashing on Spacehuhn Wiki</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 18 Jun 2020 14:10:47 +0200</lastBuildDate><atom:link href="https://spacehuhn.wiki/deauther/installation/flashing/index.xml" rel="self" type="application/rss+xml"/><item><title>Esptool</title><link>https://spacehuhn.wiki/deauther/installation/flashing/esptool/</link><pubDate>Thu, 18 Jun 2020 14:11:24 +0200</pubDate><guid>https://spacehuhn.wiki/deauther/installation/flashing/esptool/</guid><description>Esptool Using the NodeMCU (or any similar development board), the flash location is 0x0000 and the mode is dout.
+esptool.py -p /dev/ttyUSB0 write_flash -fm dout 0x0000 esp8266_deauther.ino.nodemcu.bin
+Where /dev/ttyUSB0 is the COM port of your device, write_flash is telling the program to write to flash memory, -fm dout is the flash mode and esp8266_deather.ino.nodemcu.bin is the name of your .bin file.
+Esptool-gui An easy to use GUI flasher for Windows and Mac: esptool-gui.</description></item><item><title>NodeMCU</title><link>https://spacehuhn.wiki/deauther/installation/flashing/nodemcu/</link><pubDate>Thu, 18 Jun 2020 14:19:53 +0200</pubDate><guid>https://spacehuhn.wiki/deauther/installation/flashing/nodemcu/</guid><description>Node2Deauther mrvodka007 created this user friendly all-in-one flasher tool.
+It helps you go through the process step by step and also provides the drivers you&amp;rsquo;ll need.
+https://github.com/mrvodka007/n2d
+NodeMCU-flasher Another easy to use GUI flasher, but this time only for Windows: nodemcu-flasher.
+Select the COM port, go to config and select your .bin file at 0x000000.
+Go back to Operation and click Flash.
+⚠️ The NodeMCU Flasher is outdated and can be buggy.</description></item></channel></rss>
