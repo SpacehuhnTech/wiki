@@ -9,8 +9,8 @@ tags: []
 
 ---
 
-{{% notice note %}}
-This wiki is still in development.
+{{% notice info %}}
+This wiki is still in development!
 {{% /notice %}}
 
 {{% section deauther %}}
