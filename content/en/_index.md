@@ -13,20 +13,16 @@ tags: []
 This wiki is still in development.
 {{% /notice %}}
 
+{{% section deauther %}}
 ## [ESP8266 Deauther](deauther)
-
 ![ESP8266 Deauther Logo](/media/deauther_logo.png?height=100px)
+{{% /section %}}
 
-## [WiFi Duck](wifiduck)
-
-![WiFi Duck Logo](/media/wifi_duck_logo.png?height=100px)
-
-{{< center >}}
-<b>Keystroke injection attack platform</b>
-<br>
-A worthy successor to the <a href="https://github.com/spacehuhn/wifi_ducky/">WiFi Ducky</a> project
-{{< /center >}}
-
----
+{{% section wifiduck %}}
+## [WiFi Duck](wifiduck)  
+![WiFi Duck Logo](/media/wifi_duck_logo.png?height=100px)  
+**Keystroke injection attack platform**  
+A worthy successor to the [WiFi Ducky](https://github.com/spacehuhn/wifi_ducky/) project
+{{% /section %}}
 
 {{< footerbuttons >}}
