@@ -30,4 +30,9 @@ A worthy successor to the [WiFi Ducky](https://github.com/spacehuhn/wifi_ducky/)
 how you can reach us
 {{% /section %}}
 
+{{% section faq %}}
+## [FAQ](faq)
+frequently asked questions
+{{% /section %}}
+
 {{< footerbuttons >}}
