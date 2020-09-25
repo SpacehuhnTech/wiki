@@ -25,4 +25,9 @@ This wiki is still in development!
 A worthy successor to the [WiFi Ducky](https://github.com/spacehuhn/wifi_ducky/) project
 {{% /section %}}
 
+{{% section support %}}
+## [Support](support)
+how you can reach us
+{{% /section %}}
+
 {{< footerbuttons >}}
