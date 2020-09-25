@@ -61,6 +61,9 @@ How to make use of the simple scripting system.
 ### [Development](/deauther/development)
 How to change the code for your needs.  
 
+### [possible Problems](/deauther/Problems)
+Problems you might encounter and how to fix them.
+
 ---
 
 {{< footerbuttons >}}
