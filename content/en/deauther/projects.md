@@ -9,7 +9,7 @@ tags: []
 
 
 I hope this gives some inspiration and motivation to make/hack something together yourself :)  
-If you have a cool project that isn't listed here, let me know to add it by tweeting me [@spacehuhn](http://github.com/spacehuhn/)!
+If you have a cool project that isn't listed here, let us know to add it by tweeting us [@SpacehuhnTech](https://twitter.com/SpacehuhnTech)!
 
 - [Deauthing Sandals](#deauthing-sandals)
 - [Drone Hacking a FAKE Makerspace](#drone-hacking-a-fake-makerspace)
