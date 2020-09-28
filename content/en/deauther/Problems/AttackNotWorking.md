@@ -5,9 +5,11 @@ weight: 10 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
-One reason might be that the network you are trying to attack is safe against it.<p />
-The deauther is at its core a pentesting device and as such usues an exploit in the way WiFi works wich may or may not have been fixed.
-Maybe try the device on a different network.
+Here are some possible reasons:<p />
+- maybe the device connects too fast, try increasing the pkts/s in the settings<p />
+- maybe the network is 5ghz, the ESP can only do 2.4ghz<p />
+- maybe 802.11w standart alias protected management frames are activated on your network,<p />
+this means you can't fake them and your network is safe against deauth attacks
 
 ---
 
