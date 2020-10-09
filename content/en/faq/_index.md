@@ -7,6 +7,10 @@ tags: []
 
 **Here you find answers to questions we ge on a regular basis.**
 
+{{% collapsible "sample question" %}}
+answer to sample question
+{{% /collapsible %}}
+
 ---
 
 {{< footerbuttons >}}
