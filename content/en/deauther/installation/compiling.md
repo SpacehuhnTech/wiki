@@ -7,11 +7,9 @@ tags: []
 
 0) First you have to install and open the [Arduino IDE](https://www.arduino.cc/en/main/software).  
 
-1) In Arduino go to File -> Preferences add *both* URLs in *Additional Boards Manager URLs*  
-- `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
-- `https://raw.githubusercontent.com/wiki/tobozo/Arduino/package_deauther_index.json` 
-
-(ARM specific package : `https://phpsecu.re/esp8266/arm/package_deauther_index.json`)
+1) In Arduino go to File -> Preferences add this URL in *Additional Boards Manager URLs*  
+- `https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json` 
+- (the screenshot below is using outdated URLs)
 
 ![External PICTURE adding board url](https://raw.githubusercontent.com/tobozo/Arduino/deauther/screenshots/board_manager_urls.jpg)
 
