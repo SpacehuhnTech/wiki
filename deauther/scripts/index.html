@@ -1,62 +1,503 @@
-<!doctype html><html lang=en class="js csstransforms3d"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.76.3"><meta name=description content><link rel=icon href=/images/favicon.png type=image/png><title>Writing Scripts :: Spacehuhn Wiki</title><link href=/css/nucleus.css?1602242904 rel=stylesheet><link href=/css/fontawesome-all.min.css?1602242904 rel=stylesheet><link href=/css/hybrid.css?1602242904 rel=stylesheet><link href=/css/featherlight.min.css?1602242904 rel=stylesheet><link href=/css/perfect-scrollbar.min.css?1602242904 rel=stylesheet><link href=/css/auto-complete.css?1602242904 rel=stylesheet><link href=/css/atom-one-dark-reasonable.css?1602242904 rel=stylesheet><link href=/css/theme.css?1602242904 rel=stylesheet><link href=/css/hugo-theme.css?1602242904 rel=stylesheet><link href=/css/theme-spacehuhn.css?1602242904 rel=stylesheet><script src=/js/jquery-3.3.1.min.js?1602242904></script><style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/deauther/scripts/><nav id=sidebar class=showVisitedLinks><div id=header-wrapper><div id=header><a id=logo href=https://spacehuhn.wiki/><img src=/media/spacehuhn_wiki_logo.png alt="Spacehuhn Wiki Logo"></a></div><div class=searchbox><label for=search-by><i class="fas fa-search"></i></label><input data-search-input id=search-by type=search placeholder=Search...>
-<span data-search-clear><i class="fas fa-times"></i></span></div><script type=text/javascript src=/js/lunr.min.js?1602242904></script><script type=text/javascript src=/js/auto-complete.js?1602242904></script><script type=text/javascript>var baseurl="https:\/\/spacehuhn.wiki\/";</script><script type=text/javascript src=/js/search.js?1602242904></script></div><div class=highlightable><ul class=topics><li data-nav-id=/deauther/ title="ESP8266 Deauther" class="dd-item
-parent"><a href=/deauther/>ESP8266 Deauther
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/supporteddevices/ title="Supported Devices" class=dd-item><a href=/deauther/supporteddevices/>Supported Devices
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/supporteddevices/dstikeboards/ title="Dstike Boards" class=dd-item><a href=/deauther/supporteddevices/dstikeboards/>Dstike Boards
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/nodemcu/ title="Node MCU" class=dd-item><a href=/deauther/supporteddevices/nodemcu/>Node MCU
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/wemos/ title=Wemos class=dd-item><a href=/deauther/supporteddevices/wemos/>Wemos
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/adafruit/ title=Adafruit class=dd-item><a href=/deauther/supporteddevices/adafruit/>Adafruit
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/fakeboards/ title="Fake Boards" class=dd-item><a href=/deauther/supporteddevices/fakeboards/>Fake Boards
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/installation/ title=Installation class=dd-item><a href=/deauther/installation/>Installation
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/installation/tutorial/ title=Tutorial class=dd-item><a href=/deauther/installation/tutorial/>Tutorial
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/flashing/ title=Flashing class=dd-item><a href=/deauther/installation/flashing/>Flashing
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/installation/flashing/esptool/ title=Esptool class=dd-item><a href=/deauther/installation/flashing/esptool/>Esptool
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/flashing/nodemcu/ title=NodeMCU class=dd-item><a href=/deauther/installation/flashing/nodemcu/>NodeMCU
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/installation/compiling/ title="Compiling using Arduino IDE" class=dd-item><a href=/deauther/installation/compiling/>Compiling using Arduino IDE
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/upload/ title="Upload settings" class=dd-item><a href=/deauther/installation/upload/>Upload settings
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/tips/ title="Installation tips and tricks" class=dd-item><a href=/deauther/installation/tips/>Installation tips and tricks
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/setup/ title="Setup Display & Buttons" class=dd-item><a href=/deauther/setup/>Setup Display & Buttons
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/setup/need/ title=Tools class=dd-item><a href=/deauther/setup/need/>Tools
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/wire/ title="Wire everything up" class=dd-item><a href=/deauther/setup/wire/>Wire everything up
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/setup/wire/display_button/ title="Display, Buttons & LED" class=dd-item><a href=/deauther/setup/wire/display_button/>Display, Buttons & LED
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/wire/example/ title=Examples class=dd-item><a href=/deauther/setup/wire/example/>Examples
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/setup/adjust/ title="Adjust code" class=dd-item><a href=/deauther/setup/adjust/>Adjust code
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/testing/ title=Testing class=dd-item><a href=/deauther/setup/testing/>Testing
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/usage/ title=Usage class=dd-item><a href=/deauther/usage/>Usage
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/usage/web/ title=Web class=dd-item><a href=/deauther/usage/web/>Web
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/usage/oled/ title="Oled Display" class=dd-item><a href=/deauther/usage/oled/>Oled Display
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/usage/serial/ title="Serial Usage" class=dd-item><a href=/deauther/usage/serial/>Serial Usage
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/faq/ title=FAQ class=dd-item><a href=/deauther/faq/>FAQ
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/projects/ title=Projects class=dd-item><a href=/deauther/projects/>Projects
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/commands/ title="Serial Commands" class=dd-item><a href=/deauther/commands/>Serial Commands
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/settings/ title=Settings class=dd-item><a href=/deauther/settings/>Settings
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/scripts/ title="Writing Scripts" class="dd-item active"><a href=/deauther/scripts/>Writing Scripts
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/development/ title=Development class=dd-item><a href=/deauther/development/>Development
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/troubleshooting/ title=Troubleshooting class=dd-item><a href=/deauther/troubleshooting/>Troubleshooting
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/ title="WiFi Duck" class=dd-item><a href=/wifiduck/>WiFi Duck
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/about/ title=About class=dd-item><a href=/wifiduck/about/>About
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/disclaimer/ title=Disclaimer class=dd-item><a href=/wifiduck/disclaimer/>Disclaimer
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/ title=Hardware class=dd-item><a href=/wifiduck/hardware/>Hardware
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/hardware/requirements/ title=Requirements class=dd-item><a href=/wifiduck/hardware/requirements/>Requirements
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/supportedboards/ title="Supported Boards" class=dd-item><a href=/wifiduck/hardware/supportedboards/>Supported Boards
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/connections/ title=Connections class=dd-item><a href=/wifiduck/hardware/connections/>Connections
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/pcb/ title=PCBs class=dd-item><a href=/wifiduck/hardware/pcb/>PCBs
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/dstike/ title="DSTIKE WiFi Duck" class=dd-item><a href=/wifiduck/hardware/dstike/>DSTIKE WiFi Duck
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/software/ title="Flash Software" class=dd-item><a href=/wifiduck/software/>Flash Software
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/software/preparations/ title=Preparations class=dd-item><a href=/wifiduck/software/preparations/><b>1.</b>&nbsp;Preparations
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/software/atmega/ title="Flash Atmega32u4" class=dd-item><a href=/wifiduck/software/atmega/><b>2.</b>&nbsp;Flash Atmega32u4
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/software/esp8266/ title="Flash ESP8266" class=dd-item><a href=/wifiduck/software/esp8266/><b>3.</b>&nbsp;Flash ESP8266
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/troubleshooting/ title=Troubleshooting class=dd-item><a href=/wifiduck/troubleshooting/>Troubleshooting
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/ title=Usage class=dd-item><a href=/wifiduck/usage/>Usage
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/usage/duckyscript/ title="Ducky Script" class=dd-item><a href=/wifiduck/usage/duckyscript/>Ducky Script
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/cli/ title=CLI class=dd-item><a href=/wifiduck/usage/cli/>CLI
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/debug/ title=Debug class=dd-item><a href=/wifiduck/usage/debug/>Debug
-<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/faq/ title=FAQ class=dd-item><a href=/wifiduck/faq/>FAQ
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/development/ title=Development class=dd-item><a href=/wifiduck/development/>Development
-<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/development/webfiles/ title="Edit Web Files" class=dd-item><a href=/wifiduck/development/webfiles/>Edit Web Files
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/development/translatekeyboardlayout/ title="Translate Keyboard Layout" class=dd-item><a href=/wifiduck/development/translatekeyboardlayout/>Translate Keyboard Layout
-<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/faq/ title=FAQ class=dd-item><a href=/faq/>FAQ
-<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/support/ title=Support class=dd-item><a href=/support/>Support
-<i class="fas fa-check read-icon"></i></a></li></ul><section id=prefooter><hr><ul><li><a class=padding href=# data-clear-history-toggle><i class="fas fa-history fa-fw"></i>Clear History</a></li></ul></section><section id=footer><p><a href=https://github.com/spacehuhntech/wiki><i class="fab fa-github"></i>&nbsp;Hosted on Github</a></p></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i></a></span><span id=toc-menu><i class="fas fa-list-alt"></i></span><span class=links><a href=/></a>> <a href=/deauther/>ESP8266 Deauther</a> > Writing Scripts</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><ul><li><a href=#introduction>Introduction</a></li><li><a href=#running-on-boot>Running on boot</a></li></ul></li></ul></nav></div></div></div></div><div id=head-tags></div><div id=body-inner><h1>Writing Scripts</h1><p><a href="https://www.youtube.com/watch?v=v8xkyR3JXrw"><img src=https://img.youtube.com/vi/v8xkyR3JXrw/0.jpg alt="Video on scripting with deauther 2.0"></a></p><h3 id=introduction>Introduction</h3><p>One cool thing about the new deauther version is the ability to write scripts. This is meant as a small add-on, and not as a main feature. You can&rsquo;t really program with it or do complicated stuff, and all you can do is save regular commands to a file. To show you this, I will demonstrate how to deauth a specific mac address using a script. The only caveat here is that you need to know the channel. First, we&rsquo;re going to create a file on the ESP using:<br><code>write deauthmac.txt send deauth FF:FF:FF:FF:FF:FF FF:FF:FF:FF:FF:FF 0 1</code>
-The first broadcast MAC is the access point MAC, and the second is the MAC of the station. The first 0 is the reason (0 is unspecified) and the second 0 is the channel. As I said before, you have to know the channel your target is on, but if you want to get around this, you could just make the same command 14 times, incrementing the channel from 1-14.</p><h3 id=running-on-boot>Running on boot</h3><p>To run your script on boot, write it to autostart.txt instead of another file. One caveat to this system is that there is currently <strong>NO RUN COMMAND WITHIN SCRIPTS</strong>, Meaning that you can&rsquo;t run a script from within a script.</p><hr><a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes%20for%20deauther/scripts.md&body=I%27d%20like%20to%20suggest%20changes%20for%20%60deauther/scripts.md%60%0A%0A:link:%20[Wiki]%28https://spacehuhn.wiki/deauther/scripts%29%0A:link:%20[Source]%28https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/scripts.md%29%0A%0A%3c!--%20Describe%20your%20desired%20changes%20--%3e" target=_blank class="btn btn-default"><i class="fas fa-comment"></i> Suggest changes</a>
-<a href=https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/scripts.md target=_blank class="btn btn-default"><i class="fab fa-github"></i> Source</a><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=/deauther/settings/ title=Settings><i class="fa fa-chevron-left"></i></a><a class="nav nav-next" href=/deauther/development/ title=Development style=margin-right:0><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/js/clipboard.min.js?1602242904></script><script src=/js/perfect-scrollbar.min.js?1602242904></script><script src=/js/perfect-scrollbar.jquery.min.js?1602242904></script><script src=/js/jquery.sticky.js?1602242904></script><script src=/js/featherlight.min.js?1602242904></script><script src=/js/highlight.pack.js?1602242904></script><script>hljs.initHighlightingOnLoad();</script><script src=/js/modernizr.custom-3.6.0.js?1602242904></script><script src=/js/learn.js?1602242904></script><script src=/js/hugo-learn.js?1602242904></script><link href=/mermaid/mermaid.css?1602242904 rel=stylesheet><script src=/mermaid/mermaid.js?1602242904></script><script>mermaid.initialize({startOnLoad:true});</script></body></html>
+<!doctype html><html lang=en class="js csstransforms3d">
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.88.1">
+<meta name=description content>
+<link rel=icon href=/images/favicon.png type=image/png>
+<title>Writing Scripts :: Spacehuhn Wiki</title>
+<link href=/css/nucleus.css?1634744234 rel=stylesheet>
+<link href=/css/fontawesome-all.min.css?1634744234 rel=stylesheet>
+<link href=/css/hybrid.css?1634744234 rel=stylesheet>
+<link href=/css/featherlight.min.css?1634744234 rel=stylesheet>
+<link href=/css/perfect-scrollbar.min.css?1634744234 rel=stylesheet>
+<link href=/css/auto-complete.css?1634744234 rel=stylesheet>
+<link href=/css/atom-one-dark-reasonable.css?1634744234 rel=stylesheet>
+<link href=/css/theme.css?1634744234 rel=stylesheet>
+<link href=/css/hugo-theme.css?1634744234 rel=stylesheet>
+<link href=/css/theme-spacehuhn.css?1634744234 rel=stylesheet>
+<script src=/js/jquery-3.3.1.min.js?1634744234></script>
+<style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
+</head>
+<body data-url=/deauther/scripts/>
+<nav id=sidebar class=showVisitedLinks>
+<div id=header-wrapper>
+<div id=header>
+<a id=logo href=https://spacehuhn.wiki/>
+<img src=/media/spacehuhn_wiki_logo.png alt="Spacehuhn Wiki Logo">
+</a>
+</div>
+<div class=searchbox>
+<label for=search-by><i class="fas fa-search"></i></label>
+<input data-search-input id=search-by type=search placeholder=Search...>
+<span data-search-clear><i class="fas fa-times"></i></span>
+</div>
+<script type=text/javascript src=/js/lunr.min.js?1634744234></script>
+<script type=text/javascript src=/js/auto-complete.js?1634744234></script>
+<script type=text/javascript>var baseurl="https://spacehuhn.wiki/"</script>
+<script type=text/javascript src=/js/search.js?1634744234></script>
+</div>
+<div class=highlightable>
+<ul class=topics>
+<li data-nav-id=/deauther/ title="ESP8266 Deauther" class="dd-item
+parent">
+<a href=/deauther/>
+ESP8266 Deauther
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/supporteddevices/ title="Supported Devices" class=dd-item>
+<a href=/deauther/supporteddevices/>
+Supported Devices
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/supporteddevices/dstikeboards/ title="Dstike Boards" class=dd-item>
+<a href=/deauther/supporteddevices/dstikeboards/>
+Dstike Boards
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/supporteddevices/nodemcu/ title="Node MCU" class=dd-item>
+<a href=/deauther/supporteddevices/nodemcu/>
+Node MCU
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/supporteddevices/wemos/ title=Wemos class=dd-item>
+<a href=/deauther/supporteddevices/wemos/>
+Wemos
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/supporteddevices/adafruit/ title=Adafruit class=dd-item>
+<a href=/deauther/supporteddevices/adafruit/>
+Adafruit
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/supporteddevices/fakeboards/ title="Fake Boards" class=dd-item>
+<a href=/deauther/supporteddevices/fakeboards/>
+Fake Boards
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/installation/ title=Installation class=dd-item>
+<a href=/deauther/installation/>
+Installation
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/installation/tutorial/ title=Tutorial class=dd-item>
+<a href=/deauther/installation/tutorial/>
+Tutorial
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/installation/flashing/ title=Flashing class=dd-item>
+<a href=/deauther/installation/flashing/>
+Flashing
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/installation/flashing/esptool/ title=Esptool class=dd-item>
+<a href=/deauther/installation/flashing/esptool/>
+Esptool
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/installation/flashing/nodemcu/ title=NodeMCU class=dd-item>
+<a href=/deauther/installation/flashing/nodemcu/>
+NodeMCU
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/installation/compiling/ title="Compiling using Arduino IDE" class=dd-item>
+<a href=/deauther/installation/compiling/>
+Compiling using Arduino IDE
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/installation/upload/ title="Upload settings" class=dd-item>
+<a href=/deauther/installation/upload/>
+Upload settings
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/installation/tips/ title="Installation tips and tricks" class=dd-item>
+<a href=/deauther/installation/tips/>
+Installation tips and tricks
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/setup/ title="Setup Display & Buttons" class=dd-item>
+<a href=/deauther/setup/>
+Setup Display & Buttons
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/setup/need/ title=Tools class=dd-item>
+<a href=/deauther/setup/need/>
+Tools
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/setup/wire/ title="Wire everything up" class=dd-item>
+<a href=/deauther/setup/wire/>
+Wire everything up
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/setup/wire/display_button/ title="Display, Buttons & LED" class=dd-item>
+<a href=/deauther/setup/wire/display_button/>
+Display, Buttons & LED
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/setup/wire/example/ title=Examples class=dd-item>
+<a href=/deauther/setup/wire/example/>
+Examples
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/setup/adjust/ title="Adjust code" class=dd-item>
+<a href=/deauther/setup/adjust/>
+Adjust code
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/setup/testing/ title=Testing class=dd-item>
+<a href=/deauther/setup/testing/>
+Testing
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/usage/ title=Usage class=dd-item>
+<a href=/deauther/usage/>
+Usage
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/deauther/usage/web/ title=Web class=dd-item>
+<a href=/deauther/usage/web/>
+Web
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/usage/oled/ title="Oled Display" class=dd-item>
+<a href=/deauther/usage/oled/>
+Oled Display
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/usage/serial/ title="Serial Usage" class=dd-item>
+<a href=/deauther/usage/serial/>
+Serial Usage
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/deauther/faq/ title=FAQ class=dd-item>
+<a href=/deauther/faq/>
+FAQ
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/projects/ title=Projects class=dd-item>
+<a href=/deauther/projects/>
+Projects
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/commands/ title="Serial Commands" class=dd-item>
+<a href=/deauther/commands/>
+Serial Commands
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/settings/ title=Settings class=dd-item>
+<a href=/deauther/settings/>
+Settings
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/scripts/ title="Writing Scripts" class="dd-item active">
+<a href=/deauther/scripts/>
+Writing Scripts
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/development/ title=Development class=dd-item>
+<a href=/deauther/development/>
+Development
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/deauther/troubleshooting/ title=Troubleshooting class=dd-item>
+<a href=/deauther/troubleshooting/>
+Troubleshooting
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/wifiduck/ title="WiFi Duck" class=dd-item>
+<a href=/wifiduck/>
+WiFi Duck
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/wifiduck/about/ title=About class=dd-item>
+<a href=/wifiduck/about/>
+About
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/disclaimer/ title=Disclaimer class=dd-item>
+<a href=/wifiduck/disclaimer/>
+Disclaimer
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/hardware/ title=Hardware class=dd-item>
+<a href=/wifiduck/hardware/>
+Hardware
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/wifiduck/hardware/requirements/ title=Requirements class=dd-item>
+<a href=/wifiduck/hardware/requirements/>
+Requirements
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/hardware/supportedboards/ title="Supported Boards" class=dd-item>
+<a href=/wifiduck/hardware/supportedboards/>
+Supported Boards
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/hardware/connections/ title=Connections class=dd-item>
+<a href=/wifiduck/hardware/connections/>
+Connections
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/hardware/pcb/ title=PCBs class=dd-item>
+<a href=/wifiduck/hardware/pcb/>
+PCBs
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/hardware/dstike/ title="DSTIKE WiFi Duck" class=dd-item>
+<a href=/wifiduck/hardware/dstike/>
+DSTIKE WiFi Duck
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/wifiduck/software/ title="Flash Software" class=dd-item>
+<a href=/wifiduck/software/>
+Flash Software
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/wifiduck/software/preparations/ title=Preparations class=dd-item>
+<a href=/wifiduck/software/preparations/>
+<b>1.</b>&nbsp;Preparations
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/software/atmega/ title="Flash Atmega32u4" class=dd-item>
+<a href=/wifiduck/software/atmega/>
+<b>2.</b>&nbsp;Flash Atmega32u4
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/software/esp8266/ title="Flash ESP8266" class=dd-item>
+<a href=/wifiduck/software/esp8266/>
+<b>3.</b>&nbsp;Flash ESP8266
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/wifiduck/troubleshooting/ title=Troubleshooting class=dd-item>
+<a href=/wifiduck/troubleshooting/>
+Troubleshooting
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/usage/ title=Usage class=dd-item>
+<a href=/wifiduck/usage/>
+Usage
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/wifiduck/usage/duckyscript/ title="Ducky Script" class=dd-item>
+<a href=/wifiduck/usage/duckyscript/>
+Ducky Script
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/usage/cli/ title=CLI class=dd-item>
+<a href=/wifiduck/usage/cli/>
+CLI
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/usage/debug/ title=Debug class=dd-item>
+<a href=/wifiduck/usage/debug/>
+Debug
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+<li data-nav-id=/wifiduck/faq/ title=FAQ class=dd-item>
+<a href=/wifiduck/faq/>
+FAQ
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/development/ title=Development class=dd-item>
+<a href=/wifiduck/development/>
+Development
+<i class="fas fa-check read-icon"></i>
+</a>
+<ul>
+<li data-nav-id=/wifiduck/development/webfiles/ title="Edit Web Files" class=dd-item>
+<a href=/wifiduck/development/webfiles/>
+Edit Web Files
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/wifiduck/development/translatekeyboardlayout/ title="Translate Keyboard Layout" class=dd-item>
+<a href=/wifiduck/development/translatekeyboardlayout/>
+Translate Keyboard Layout
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-nav-id=/faq/ title=FAQ class=dd-item>
+<a href=/faq/>
+FAQ
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+<li data-nav-id=/support/ title=Support class=dd-item>
+<a href=/support/>
+Support
+<i class="fas fa-check read-icon"></i>
+</a>
+</li>
+</ul>
+<section id=prefooter>
+<hr>
+<ul>
+<li><a class=padding href=# data-clear-history-toggle><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+</ul>
+</section>
+<section id=footer>
+<p>
+<a href=https://github.com/spacehuhntech/wiki><i class="fab fa-github"></i>&nbsp;Hosted on Github</a>
+</p>
+</section>
+</div>
+</nav>
+<section id=body>
+<div id=overlay></div>
+<div class="padding highlightable">
+<div>
+<div id=top-bar>
+<div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
+<span id=sidebar-toggle-span>
+<a href=# id=sidebar-toggle data-sidebar-toggle>
+<i class="fas fa-bars"></i>
+</a>
+</span>
+<span id=toc-menu><i class="fas fa-list-alt"></i></span>
+<span class=links>
+<a href=/></a> > <a href=/deauther/>ESP8266 Deauther</a> > Writing Scripts
+</span>
+</div>
+<div class=progress>
+<div class=wrapper>
+<nav id=TableOfContents>
+<ul>
+<li>
+<ul>
+<li><a href=#introduction>Introduction</a></li>
+<li><a href=#running-on-boot>Running on boot</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+<div id=head-tags>
+</div>
+<div id=body-inner>
+<h1>
+Writing Scripts
+</h1>
+<p><a href="https://www.youtube.com/watch?v=v8xkyR3JXrw"><img src=https://img.youtube.com/vi/v8xkyR3JXrw/0.jpg alt="Video on scripting with deauther 2.0"></a></p>
+<h3 id=introduction>Introduction</h3>
+<p>One cool thing about the new deauther version is the ability to write scripts. This is meant as a small add-on, and not as a main feature. You can&rsquo;t really program with it or do complicated stuff, and all you can do is save regular commands to a file. To show you this, I will demonstrate how to deauth a specific mac address using a script. The only caveat here is that you need to know the channel. First, we&rsquo;re going to create a file on the ESP using: <br>
+<code>write deauthmac.txt send deauth FF:FF:FF:FF:FF:FF FF:FF:FF:FF:FF:FF 0 1</code>
+The first broadcast MAC is the access point MAC, and the second is the MAC of the station. The first 0 is the reason (0 is unspecified) and the second 0 is the channel. As I said before, you have to know the channel your target is on, but if you want to get around this, you could just make the same command 14 times, incrementing the channel from 1-14.</p>
+<h3 id=running-on-boot>Running on boot</h3>
+<p>To run your script on boot, write it to autostart.txt instead of another file. One caveat to this system is that there is currently <strong>NO RUN COMMAND WITHIN SCRIPTS</strong>, Meaning that you can&rsquo;t run a script from within a script.</p>
+<hr>
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes%20for%20deauther/scripts.md&body=I%27d%20like%20to%20suggest%20changes%20for%20%60deauther/scripts.md%60%0A%0A:link:%20[Wiki]%28https://spacehuhn.wiki/deauther/scripts%29%0A:link:%20[Source]%28https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/scripts.md%29%0A%0A%3c!--%20Describe%20your%20desired%20changes%20--%3e" target=_blank class="btn btn-default">
+<i class="fas fa-comment"></i>
+ Suggest changes
+</a>
+<a href=https://github.com/SpacehuhnTech/wiki/blob/master/content/en/deauther/scripts.md target=_blank class="btn btn-default">
+<i class="fab fa-github"></i>
+ Source
+</a>
+<footer class=footline>
+</footer>
+</div>
+</div>
+<div id=navigation>
+<a class="nav nav-prev" href=/deauther/settings/ title=Settings> <i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/deauther/development/ title=Development style=margin-right:0><i class="fa fa-chevron-right"></i></a>
+</div>
+</section>
+<div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
+<div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
+</div>
+<script src=/js/clipboard.min.js?1634744234></script>
+<script src=/js/perfect-scrollbar.min.js?1634744234></script>
+<script src=/js/perfect-scrollbar.jquery.min.js?1634744234></script>
+<script src=/js/jquery.sticky.js?1634744234></script>
+<script src=/js/featherlight.min.js?1634744234></script>
+<script src=/js/highlight.pack.js?1634744234></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=/js/modernizr.custom-3.6.0.js?1634744234></script>
+<script src=/js/learn.js?1634744234></script>
+<script src=/js/hugo-learn.js?1634744234></script>
+<link href=/mermaid/mermaid.css?1634744234 rel=stylesheet>
+<script src=/mermaid/mermaid.js?1634744234></script>
+<script>mermaid.initialize({startOnLoad:!0})</script>
+</body>
+</html>
