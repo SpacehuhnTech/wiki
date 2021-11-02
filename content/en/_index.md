@@ -10,7 +10,7 @@ tags: []
 ---
 
 {{% notice info %}}
-This wiki is still in development!
+This wiki is being replaced by our [new Blog](https://blog.spacehuhn.com/)
 {{% /notice %}}
 
 {{% section deauther %}}
