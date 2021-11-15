@@ -82,7 +82,6 @@ GUI r
 STRING notepad
 ENTER
 STRING Hello World!
-
----
+```
 
 {{< footerbuttons >}}
