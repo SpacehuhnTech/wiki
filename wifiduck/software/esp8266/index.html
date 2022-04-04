@@ -1,516 +1,90 @@
-<!doctype html><html lang=en class="js csstransforms3d">
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=generator content="Hugo 0.89.2">
-<meta name=description content>
-<link rel=icon href=/images/favicon.png type=image/png>
-<title>Flash ESP8266 :: Spacehuhn Wiki</title>
-<link href=/css/nucleus.css?1636995927 rel=stylesheet>
-<link href=/css/fontawesome-all.min.css?1636995927 rel=stylesheet>
-<link href=/css/hybrid.css?1636995927 rel=stylesheet>
-<link href=/css/featherlight.min.css?1636995927 rel=stylesheet>
-<link href=/css/perfect-scrollbar.min.css?1636995927 rel=stylesheet>
-<link href=/css/auto-complete.css?1636995927 rel=stylesheet>
-<link href=/css/atom-one-dark-reasonable.css?1636995927 rel=stylesheet>
-<link href=/css/theme.css?1636995927 rel=stylesheet>
-<link href=/css/hugo-theme.css?1636995927 rel=stylesheet>
-<link href=/css/theme-spacehuhn.css?1636995927 rel=stylesheet>
-<script src=/js/jquery-3.3.1.min.js?1636995927></script>
-<style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
-</head>
-<body data-url=/wifiduck/software/esp8266/>
-<nav id=sidebar class=showVisitedLinks>
-<div id=header-wrapper>
-<div id=header>
-<a id=logo href=https://spacehuhn.wiki/>
-<img src=/media/spacehuhn_wiki_logo.png alt="Spacehuhn Wiki Logo">
-</a>
-</div>
-<div class=searchbox>
-<label for=search-by><i class="fas fa-search"></i></label>
+<!doctype html><html lang=en class="js csstransforms3d"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.96.0"><meta name=description content><link rel=icon href=/images/favicon.png type=image/png><title>Flash ESP8266 :: Spacehuhn Wiki</title><link href=/css/nucleus.css?1649068106 rel=stylesheet><link href=/css/fontawesome-all.min.css?1649068106 rel=stylesheet><link href=/css/hybrid.css?1649068106 rel=stylesheet><link href=/css/featherlight.min.css?1649068106 rel=stylesheet><link href=/css/perfect-scrollbar.min.css?1649068106 rel=stylesheet><link href=/css/auto-complete.css?1649068106 rel=stylesheet><link href=/css/atom-one-dark-reasonable.css?1649068106 rel=stylesheet><link href=/css/theme.css?1649068106 rel=stylesheet><link href=/css/hugo-theme.css?1649068106 rel=stylesheet><link href=/css/theme-spacehuhn.css?1649068106 rel=stylesheet><script src=/js/jquery-3.3.1.min.js?1649068106></script><style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/wifiduck/software/esp8266/><nav id=sidebar class=showVisitedLinks><div id=header-wrapper><div id=header><a id=logo href=https://spacehuhn.wiki/><img src=/media/spacehuhn_wiki_logo.png alt="Spacehuhn Wiki Logo"></a></div><div class=searchbox><label for=search-by><i class="fas fa-search"></i></label>
 <input data-search-input id=search-by type=search placeholder=Search...>
-<span data-search-clear><i class="fas fa-times"></i></span>
-</div>
-<script type=text/javascript src=/js/lunr.min.js?1636995927></script>
-<script type=text/javascript src=/js/auto-complete.js?1636995927></script>
-<script type=text/javascript>var baseurl="https://spacehuhn.wiki/"</script>
-<script type=text/javascript src=/js/search.js?1636995927></script>
-</div>
-<div class=highlightable>
-<ul class=topics>
-<li data-nav-id=/deauther/ title="ESP8266 Deauther" class=dd-item>
-<a href=/deauther/>
-ESP8266 Deauther
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/supporteddevices/ title="Supported Devices" class=dd-item>
-<a href=/deauther/supporteddevices/>
-Supported Devices
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/supporteddevices/dstikeboards/ title="Dstike Boards" class=dd-item>
-<a href=/deauther/supporteddevices/dstikeboards/>
-Dstike Boards
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/supporteddevices/nodemcu/ title="Node MCU" class=dd-item>
-<a href=/deauther/supporteddevices/nodemcu/>
-Node MCU
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/supporteddevices/wemos/ title=Wemos class=dd-item>
-<a href=/deauther/supporteddevices/wemos/>
-Wemos
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/supporteddevices/adafruit/ title=Adafruit class=dd-item>
-<a href=/deauther/supporteddevices/adafruit/>
-Adafruit
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/supporteddevices/fakeboards/ title="Fake Boards" class=dd-item>
-<a href=/deauther/supporteddevices/fakeboards/>
-Fake Boards
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/installation/ title=Installation class=dd-item>
-<a href=/deauther/installation/>
-Installation
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/installation/tutorial/ title=Tutorial class=dd-item>
-<a href=/deauther/installation/tutorial/>
-Tutorial
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/installation/flashing/ title=Flashing class=dd-item>
-<a href=/deauther/installation/flashing/>
-Flashing
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/installation/flashing/esptool/ title=Esptool class=dd-item>
-<a href=/deauther/installation/flashing/esptool/>
-Esptool
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/installation/flashing/nodemcu/ title=NodeMCU class=dd-item>
-<a href=/deauther/installation/flashing/nodemcu/>
-NodeMCU
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/installation/compiling/ title="Compiling using Arduino IDE" class=dd-item>
-<a href=/deauther/installation/compiling/>
-Compiling using Arduino IDE
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/installation/upload/ title="Upload settings" class=dd-item>
-<a href=/deauther/installation/upload/>
-Upload settings
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/installation/tips/ title="Installation tips and tricks" class=dd-item>
-<a href=/deauther/installation/tips/>
-Installation tips and tricks
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/setup/ title="Setup Display & Buttons" class=dd-item>
-<a href=/deauther/setup/>
-Setup Display & Buttons
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/setup/need/ title=Tools class=dd-item>
-<a href=/deauther/setup/need/>
-Tools
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/setup/wire/ title="Wire everything up" class=dd-item>
-<a href=/deauther/setup/wire/>
-Wire everything up
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/setup/wire/display_button/ title="Display, Buttons & LED" class=dd-item>
-<a href=/deauther/setup/wire/display_button/>
-Display, Buttons & LED
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/setup/wire/example/ title=Examples class=dd-item>
-<a href=/deauther/setup/wire/example/>
-Examples
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/setup/adjust/ title="Adjust code" class=dd-item>
-<a href=/deauther/setup/adjust/>
-Adjust code
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/setup/testing/ title=Testing class=dd-item>
-<a href=/deauther/setup/testing/>
-Testing
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/usage/ title=Usage class=dd-item>
-<a href=/deauther/usage/>
-Usage
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/deauther/usage/web/ title=Web class=dd-item>
-<a href=/deauther/usage/web/>
-Web
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/usage/oled/ title="Oled Display" class=dd-item>
-<a href=/deauther/usage/oled/>
-Oled Display
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/usage/serial/ title="Serial Usage" class=dd-item>
-<a href=/deauther/usage/serial/>
-Serial Usage
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/deauther/faq/ title=FAQ class=dd-item>
-<a href=/deauther/faq/>
-FAQ
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/projects/ title=Projects class=dd-item>
-<a href=/deauther/projects/>
-Projects
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/commands/ title="Serial Commands" class=dd-item>
-<a href=/deauther/commands/>
-Serial Commands
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/settings/ title=Settings class=dd-item>
-<a href=/deauther/settings/>
-Settings
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/scripts/ title="Writing Scripts" class=dd-item>
-<a href=/deauther/scripts/>
-Writing Scripts
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/development/ title=Development class=dd-item>
-<a href=/deauther/development/>
-Development
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/deauther/troubleshooting/ title=Troubleshooting class=dd-item>
-<a href=/deauther/troubleshooting/>
-Troubleshooting
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/wifiduck/ title="WiFi Duck" class="dd-item
-parent">
-<a href=/wifiduck/>
-WiFi Duck
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/wifiduck/about/ title=About class=dd-item>
-<a href=/wifiduck/about/>
-About
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/disclaimer/ title=Disclaimer class=dd-item>
-<a href=/wifiduck/disclaimer/>
-Disclaimer
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/hardware/ title=Hardware class=dd-item>
-<a href=/wifiduck/hardware/>
-Hardware
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/wifiduck/hardware/requirements/ title=Requirements class=dd-item>
-<a href=/wifiduck/hardware/requirements/>
-Requirements
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/hardware/supportedboards/ title="Supported Boards" class=dd-item>
-<a href=/wifiduck/hardware/supportedboards/>
-Supported Boards
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/hardware/connections/ title=Connections class=dd-item>
-<a href=/wifiduck/hardware/connections/>
-Connections
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/hardware/pcb/ title=PCBs class=dd-item>
-<a href=/wifiduck/hardware/pcb/>
-PCBs
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/hardware/dstike/ title="DSTIKE WiFi Duck" class=dd-item>
-<a href=/wifiduck/hardware/dstike/>
-DSTIKE WiFi Duck
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/wifiduck/software/ title="Flash Software" class="dd-item
-parent">
-<a href=/wifiduck/software/>
-Flash Software
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/wifiduck/software/preparations/ title=Preparations class=dd-item>
-<a href=/wifiduck/software/preparations/>
-<b>1.</b>&nbsp;Preparations
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/software/atmega/ title="Flash Atmega32u4" class=dd-item>
-<a href=/wifiduck/software/atmega/>
-<b>2.</b>&nbsp;Flash Atmega32u4
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/software/esp8266/ title="Flash ESP8266" class="dd-item active">
-<a href=/wifiduck/software/esp8266/>
-<b>3.</b>&nbsp;Flash ESP8266
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/wifiduck/troubleshooting/ title=Troubleshooting class=dd-item>
-<a href=/wifiduck/troubleshooting/>
-Troubleshooting
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/usage/ title=Usage class=dd-item>
-<a href=/wifiduck/usage/>
-Usage
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/wifiduck/usage/duckyscript/ title="Ducky Script" class=dd-item>
-<a href=/wifiduck/usage/duckyscript/>
-Ducky Script
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/usage/cli/ title=CLI class=dd-item>
-<a href=/wifiduck/usage/cli/>
-CLI
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/usage/debug/ title=Debug class=dd-item>
-<a href=/wifiduck/usage/debug/>
-Debug
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-<li data-nav-id=/wifiduck/faq/ title=FAQ class=dd-item>
-<a href=/wifiduck/faq/>
-FAQ
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/development/ title=Development class=dd-item>
-<a href=/wifiduck/development/>
-Development
-<i class="fas fa-check read-icon"></i>
-</a>
-<ul>
-<li data-nav-id=/wifiduck/development/webfiles/ title="Edit Web Files" class=dd-item>
-<a href=/wifiduck/development/webfiles/>
-Edit Web Files
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/wifiduck/development/translatekeyboardlayout/ title="Translate Keyboard Layout" class=dd-item>
-<a href=/wifiduck/development/translatekeyboardlayout/>
-Translate Keyboard Layout
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li data-nav-id=/faq/ title=FAQ class=dd-item>
-<a href=/faq/>
-FAQ
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-<li data-nav-id=/support/ title=Support class=dd-item>
-<a href=/support/>
-Support
-<i class="fas fa-check read-icon"></i>
-</a>
-</li>
-</ul>
-<section id=prefooter>
-<hr>
-<ul>
-<li><a class=padding href=# data-clear-history-toggle><i class="fas fa-history fa-fw"></i> Clear History</a></li>
-</ul>
-</section>
-<section id=footer>
-<p>
-<a href=https://github.com/spacehuhntech/wiki><i class="fab fa-github"></i>&nbsp;Hosted on Github</a>
-</p>
-</section>
-</div>
-</nav>
-<section id=body>
-<div id=overlay></div>
-<div class="padding highlightable">
-<div>
-<div id=top-bar>
-<div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb>
-<span id=sidebar-toggle-span>
-<a href=# id=sidebar-toggle data-sidebar-toggle>
-<i class="fas fa-bars"></i>
-</a>
-</span>
+<span data-search-clear><i class="fas fa-times"></i></span></div><script type=text/javascript src=/js/lunr.min.js?1649068106></script>
+<script type=text/javascript src=/js/auto-complete.js?1649068106></script>
+<script type=text/javascript>var baseurl="https://spacehuhn.wiki/"</script><script type=text/javascript src=/js/search.js?1649068106></script></div><div class=highlightable><ul class=topics><li data-nav-id=/deauther/ title="ESP8266 Deauther" class=dd-item><a href=/deauther/>ESP8266 Deauther
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/supporteddevices/ title="Supported Devices" class=dd-item><a href=/deauther/supporteddevices/>Supported Devices
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/supporteddevices/dstikeboards/ title="Dstike Boards" class=dd-item><a href=/deauther/supporteddevices/dstikeboards/>Dstike Boards
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/nodemcu/ title="Node MCU" class=dd-item><a href=/deauther/supporteddevices/nodemcu/>Node MCU
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/wemos/ title=Wemos class=dd-item><a href=/deauther/supporteddevices/wemos/>Wemos
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/adafruit/ title=Adafruit class=dd-item><a href=/deauther/supporteddevices/adafruit/>Adafruit
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/supporteddevices/fakeboards/ title="Fake Boards" class=dd-item><a href=/deauther/supporteddevices/fakeboards/>Fake Boards
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/installation/ title=Installation class=dd-item><a href=/deauther/installation/>Installation
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/installation/tutorial/ title=Tutorial class=dd-item><a href=/deauther/installation/tutorial/>Tutorial
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/flashing/ title=Flashing class=dd-item><a href=/deauther/installation/flashing/>Flashing
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/installation/flashing/esptool/ title=Esptool class=dd-item><a href=/deauther/installation/flashing/esptool/>Esptool
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/flashing/nodemcu/ title=NodeMCU class=dd-item><a href=/deauther/installation/flashing/nodemcu/>NodeMCU
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/installation/compiling/ title="Compiling using Arduino IDE" class=dd-item><a href=/deauther/installation/compiling/>Compiling using Arduino IDE
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/upload/ title="Upload settings" class=dd-item><a href=/deauther/installation/upload/>Upload settings
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/installation/tips/ title="Installation tips and tricks" class=dd-item><a href=/deauther/installation/tips/>Installation tips and tricks
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/setup/ title="Setup Display & Buttons" class=dd-item><a href=/deauther/setup/>Setup Display & Buttons
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/setup/need/ title=Tools class=dd-item><a href=/deauther/setup/need/>Tools
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/wire/ title="Wire everything up" class=dd-item><a href=/deauther/setup/wire/>Wire everything up
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/setup/wire/display_button/ title="Display, Buttons & LED" class=dd-item><a href=/deauther/setup/wire/display_button/>Display, Buttons & LED
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/wire/example/ title=Examples class=dd-item><a href=/deauther/setup/wire/example/>Examples
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/setup/adjust/ title="Adjust code" class=dd-item><a href=/deauther/setup/adjust/>Adjust code
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/setup/testing/ title=Testing class=dd-item><a href=/deauther/setup/testing/>Testing
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/usage/ title=Usage class=dd-item><a href=/deauther/usage/>Usage
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/deauther/usage/web/ title=Web class=dd-item><a href=/deauther/usage/web/>Web
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/usage/oled/ title="Oled Display" class=dd-item><a href=/deauther/usage/oled/>Oled Display
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/usage/serial/ title="Serial Usage" class=dd-item><a href=/deauther/usage/serial/>Serial Usage
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/deauther/faq/ title=FAQ class=dd-item><a href=/deauther/faq/>FAQ
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/projects/ title=Projects class=dd-item><a href=/deauther/projects/>Projects
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/commands/ title="Serial Commands" class=dd-item><a href=/deauther/commands/>Serial Commands
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/settings/ title=Settings class=dd-item><a href=/deauther/settings/>Settings
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/scripts/ title="Writing Scripts" class=dd-item><a href=/deauther/scripts/>Writing Scripts
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/development/ title=Development class=dd-item><a href=/deauther/development/>Development
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/deauther/troubleshooting/ title=Troubleshooting class=dd-item><a href=/deauther/troubleshooting/>Troubleshooting
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/ title="WiFi Duck" class="dd-item
+parent"><a href=/wifiduck/>WiFi Duck
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/about/ title=About class=dd-item><a href=/wifiduck/about/>About
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/disclaimer/ title=Disclaimer class=dd-item><a href=/wifiduck/disclaimer/>Disclaimer
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/ title=Hardware class=dd-item><a href=/wifiduck/hardware/>Hardware
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/hardware/requirements/ title=Requirements class=dd-item><a href=/wifiduck/hardware/requirements/>Requirements
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/supportedboards/ title="Supported Boards" class=dd-item><a href=/wifiduck/hardware/supportedboards/>Supported Boards
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/connections/ title=Connections class=dd-item><a href=/wifiduck/hardware/connections/>Connections
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/pcb/ title=PCBs class=dd-item><a href=/wifiduck/hardware/pcb/>PCBs
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/hardware/dstike/ title="DSTIKE WiFi Duck" class=dd-item><a href=/wifiduck/hardware/dstike/>DSTIKE WiFi Duck
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/software/ title="Flash Software" class="dd-item
+parent"><a href=/wifiduck/software/>Flash Software
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/software/preparations/ title=Preparations class=dd-item><a href=/wifiduck/software/preparations/><b>1.</b>&nbsp;Preparations
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/software/atmega/ title="Flash Atmega32u4" class=dd-item><a href=/wifiduck/software/atmega/><b>2.</b>&nbsp;Flash Atmega32u4
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/software/esp8266/ title="Flash ESP8266" class="dd-item active"><a href=/wifiduck/software/esp8266/><b>3.</b>&nbsp;Flash ESP8266
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/troubleshooting/ title=Troubleshooting class=dd-item><a href=/wifiduck/troubleshooting/>Troubleshooting
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/ title=Usage class=dd-item><a href=/wifiduck/usage/>Usage
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/usage/duckyscript/ title="Ducky Script" class=dd-item><a href=/wifiduck/usage/duckyscript/>Ducky Script
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/cli/ title=CLI class=dd-item><a href=/wifiduck/usage/cli/>CLI
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/usage/debug/ title=Debug class=dd-item><a href=/wifiduck/usage/debug/>Debug
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/wifiduck/faq/ title=FAQ class=dd-item><a href=/wifiduck/faq/>FAQ
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/development/ title=Development class=dd-item><a href=/wifiduck/development/>Development
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/wifiduck/development/webfiles/ title="Edit Web Files" class=dd-item><a href=/wifiduck/development/webfiles/>Edit Web Files
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/wifiduck/development/translatekeyboardlayout/ title="Translate Keyboard Layout" class=dd-item><a href=/wifiduck/development/translatekeyboardlayout/>Translate Keyboard Layout
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/faq/ title=FAQ class=dd-item><a href=/faq/>FAQ
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/support/ title=Support class=dd-item><a href=/support/>Support
+<i class="fas fa-check read-icon"></i></a></li></ul><section id=prefooter><hr><ul><li><a class=padding href=# data-clear-history-toggle><i class="fas fa-history fa-fw"></i> Clear History</a></li></ul></section><section id=footer><p><a href=https://github.com/spacehuhntech/wiki><i class="fab fa-github"></i>&nbsp;Hosted on Github</a></p></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div><div id=top-bar><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i></a></span>
 <span id=toc-menu><i class="fas fa-list-alt"></i></span>
-<span class=links>
-<a href=/></a> > <a href=/wifiduck/>WiFi Duck</a> > <a href=/wifiduck/software/>Flash Software</a> > Flash ESP8266
-</span>
-</div>
-<div class=progress>
-<div class=wrapper>
-<nav id=TableOfContents></nav>
-</div>
-</div>
-</div>
-</div>
-<div id=head-tags>
-</div>
-<div id=body-inner>
-<h1>
-Flash ESP8266
-</h1>
-<ol>
-<li>Open <code>esp_duck/esp_duck.ino</code> with the Arduino IDE.</li>
-<li>Under <code>Tools</code> > <code>Board</code> in the <code>WiFi Duck ESP8266</code> section, select your board.
-For example <code>NodeMCU 1.0 (ESP-12E Module)</code>.</li>
-<li>Connect the ESP8266 board via USB and select its port under <code>Tools</code> > <code>Port</code>.</li>
-<li>Press Upload.</li>
-</ol>
-<p><strong>Pro Tip:</strong> If the ESP8266 is already running this software
+<span class=links><a href=/></a> > <a href=/wifiduck/>WiFi Duck</a> > <a href=/wifiduck/software/>Flash Software</a> > Flash ESP8266</span></div><div class=progress><div class=wrapper><nav id=TableOfContents></nav></div></div></div></div><div id=head-tags></div><div id=body-inner><h1>Flash ESP8266</h1><ol><li>Open <code>esp_duck/esp_duck.ino</code> with the Arduino IDE.</li><li>Under <code>Tools</code> > <code>Board</code> in the <code>WiFi Duck ESP8266</code> section, select your board.
+For example <code>NodeMCU 1.0 (ESP-12E Module)</code>.</li><li>Connect the ESP8266 board via USB and select its port under <code>Tools</code> > <code>Port</code>.</li><li>Press Upload.</li></ol><p><strong>Pro Tip:</strong> If the ESP8266 is already running this software
 and you just want to update it, you don&rsquo;t have to connect it via USB.
 You can update it over the air! Simply connect to the Wi-Fi network its hosting
-(default SSID and password is <code>wifiduck</code>).<br>
-In Arduino under <code>Tools</code> > <code>Port</code> you should now see a network port.
-Select it and press <code>Upload</code>.</p>
-<p><strong>Note:</strong> It can take a minute until the device is ready.
-After the initial flashing, the ESP8266 has to format its memory.</p>
-<p>If you connected the RGB LED:</p>
-<ul>
-<li>Blue LED = Connection working</li>
-<li>Green LED = Device ready</li>
-</ul>
-<hr>
-<div id=hyvor-talk-view></div>
-<script type=text/javascript>var HYVOR_TALK_WEBSITE=5575,HYVOR_TALK_CONFIG={url:!1,id:!1}</script>
-<script async type=text/javascript src=//talk.hyvor.com/web-api/embed.js></script>
-<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Question%20about%20wifiduck%2fsoftware%2fesp8266.md&body=I%20have%20a%20question%20regarding%20the%20information%20on%20the%20%5bWiki%5d%28https%3a%2f%2fspacehuhn.wiki%2fwifiduck%2fsoftware%2fesp8266.md%29%20at%20%60wifiduck%2fsoftware%2fesp8266.md%60%0d%0a%3c%21--%20Describe%20your%20desired%20changes%20below%3a%20--%3e&labels=question" target=_blank class="btn btn-default">
-<i class="fas fa-question"></i>
-&nbsp;I have a question
-</a>
-<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes%20for%20wifiduck%2fsoftware%2fesp8266.md&body=I%27d%20like%20to%20suggest%20changes%20for%20%60wifiduck%2fsoftware%2fesp8266.md%60%0d%0a%3alink%3a%5bWiki%5d%28https%3a%2f%2fspacehuhn.wiki%2fwifiduck%2fsoftware%2fesp8266.md%29%0d%0a%3alink%3a%5bSource%5d%28https%3a%2f%2fgithub.com%2fSpacehuhnTech%2fwiki%2fblob%2fmain%2fcontent%2fen%2fwifiduck%2fsoftware%2fesp8266.md%29%0d%0a%3c%21--%20Describe%20your%20desired%20changes%20below%3a%20--%3e&labels=improvement" target=_blank class="btn btn-default">
-<i class="fas fa-comment"></i>
-&nbsp;Suggest changes
-</a>
-<a href=https://github.com/SpacehuhnTech/wiki/blob/main/content/en/wifiduck/software/esp8266.md target=_blank class="btn btn-default">
-<i class="fab fa-github"></i>
-&nbsp;Source
-</a>
-<script defer data-domain=spacehuhn.wiki src=https://plausible.io/js/plausible.js></script>
-<footer class=footline>
-</footer>
-</div>
-</div>
-<div id=navigation>
-<a class="nav nav-prev" href=/wifiduck/software/atmega/ title="Flash Atmega32u4"> <i class="fa fa-chevron-left"></i></a>
-<a class="nav nav-next" href=/wifiduck/troubleshooting/ title=Troubleshooting style=margin-right:0><i class="fa fa-chevron-right"></i></a>
-</div>
-</section>
-<div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
-<div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
-</div>
-<script src=/js/clipboard.min.js?1636995927></script>
-<script src=/js/perfect-scrollbar.min.js?1636995927></script>
-<script src=/js/perfect-scrollbar.jquery.min.js?1636995927></script>
-<script src=/js/jquery.sticky.js?1636995927></script>
-<script src=/js/featherlight.min.js?1636995927></script>
-<script src=/js/highlight.pack.js?1636995927></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script src=/js/modernizr.custom-3.6.0.js?1636995927></script>
-<script src=/js/learn.js?1636995927></script>
-<script src=/js/hugo-learn.js?1636995927></script>
-<link href=/mermaid/mermaid.css?1636995927 rel=stylesheet>
-<script src=/mermaid/mermaid.js?1636995927></script>
-<script>mermaid.initialize({startOnLoad:!0})</script>
-</body>
-</html>
+(default SSID and password is <code>wifiduck</code>).<br>In Arduino under <code>Tools</code> > <code>Port</code> you should now see a network port.
+Select it and press <code>Upload</code>.</p><p><strong>Note:</strong> It can take a minute until the device is ready.
+After the initial flashing, the ESP8266 has to format its memory.</p><p>If you connected the RGB LED:</p><ul><li>Blue LED = Connection working</li><li>Green LED = Device ready</li></ul><hr><div id=hyvor-talk-view></div><script type=text/javascript>var HYVOR_TALK_WEBSITE=5575,HYVOR_TALK_CONFIG={url:!1,id:!1}</script><script async type=text/javascript src=//talk.hyvor.com/web-api/embed.js></script>
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Question%20about%20wifiduck%2fsoftware%2fesp8266.md&body=I%20have%20a%20question%20regarding%20the%20information%20on%20the%20%5bWiki%5d%28https%3a%2f%2fspacehuhn.wiki%2fwifiduck%2fsoftware%2fesp8266.md%29%20at%20%60wifiduck%2fsoftware%2fesp8266.md%60%0d%0a%3c%21--%20Describe%20your%20desired%20changes%20below%3a%20--%3e&labels=question" target=_blank class="btn btn-default"><i class="fas fa-question"></i>
+&nbsp;I have a question</a>
+<a href="https://github.com/SpacehuhnTech/wiki/issues/new?title=Changes%20for%20wifiduck%2fsoftware%2fesp8266.md&body=I%27d%20like%20to%20suggest%20changes%20for%20%60wifiduck%2fsoftware%2fesp8266.md%60%0d%0a%3alink%3a%5bWiki%5d%28https%3a%2f%2fspacehuhn.wiki%2fwifiduck%2fsoftware%2fesp8266.md%29%0d%0a%3alink%3a%5bSource%5d%28https%3a%2f%2fgithub.com%2fSpacehuhnTech%2fwiki%2fblob%2fmain%2fcontent%2fen%2fwifiduck%2fsoftware%2fesp8266.md%29%0d%0a%3c%21--%20Describe%20your%20desired%20changes%20below%3a%20--%3e&labels=improvement" target=_blank class="btn btn-default"><i class="fas fa-comment"></i>
+&nbsp;Suggest changes</a>
+<a href=https://github.com/SpacehuhnTech/wiki/blob/main/content/en/wifiduck/software/esp8266.md target=_blank class="btn btn-default"><i class="fab fa-github"></i>
+&nbsp;Source</a>
+<script defer data-domain=spacehuhn.wiki src=https://plausible.io/js/plausible.js></script><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=/wifiduck/software/atmega/ title="Flash Atmega32u4"><i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/wifiduck/troubleshooting/ title=Troubleshooting style=margin-right:0><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/js/clipboard.min.js?1649068106></script>
+<script src=/js/perfect-scrollbar.min.js?1649068106></script>
+<script src=/js/perfect-scrollbar.jquery.min.js?1649068106></script>
+<script src=/js/jquery.sticky.js?1649068106></script>
+<script src=/js/featherlight.min.js?1649068106></script>
+<script src=/js/highlight.pack.js?1649068106></script>
+<script>hljs.initHighlightingOnLoad()</script><script src=/js/modernizr.custom-3.6.0.js?1649068106></script>
+<script src=/js/learn.js?1649068106></script>
+<script src=/js/hugo-learn.js?1649068106></script>
+<link href=/mermaid/mermaid.css?1649068106 rel=stylesheet><script src=/mermaid/mermaid.js?1649068106></script>
+<script>mermaid.initialize({startOnLoad:!0})</script></body></html>
