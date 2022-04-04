@@ -5,6 +5,16 @@ weight: 3 # The smaller the higher position in the navigation and vice versa
 tags: []
 ---
 
+**UPDATE**  
+We now have [serial.huhn.me](https://serial.huhn.me), an online serial terminal. A great alternative for which you don't need to install anything. You only need a compatible browser. Learn more: [blog.spacehuhn.com/serial-terminal](https://blog.spacehuhn.com/serial-terminal)
+
+1) Open [serial.huhn.me](https://serial.huhn.me)
+2) Click connect
+3) Plugin your ESP8266 board
+4) Select the port that pops up in the list and click connect
+
+---
+
 1) Connect the ESP8266 board to your computer.  
 
 2) Open Arduino, go to `Tools` -> `Port` and select the correct serial port.  
