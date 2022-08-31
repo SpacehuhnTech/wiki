@@ -6,4 +6,5 @@ It gzips all files inside web/, converts them into a hex array and saves it in e
 DE GB US ES RU (WIP) FR (ASCII only) All standard keys are defined in usb_hid_keys.h.
 To translate a keyboard layout, you have to match each character on your keyboard to the one(s) of a US keyboard.
 This stuff is hard to explain in writing and requires a lot of manual work and testing.
-Copy one of the existing layouts files, like locale_us.</description></item></channel></rss>
+Copy one of the existing layouts files, like locale_us.h.
+Preferably one that is close to your keyboard layout, it will save you time!</description></item></channel></rss>
