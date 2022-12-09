@@ -2,8 +2,7 @@
 Online interactive step by step tutorial by @jLynx:
 🎓 http://deauth.me
 $3 WiFi Jammer/Deauther using ESP8266 | Deauther 2.0 Flashing/Installation by @PwnKitteh:
-🎬 /]
-&amp;nbsp;I have a question &amp;nbsp;Suggest changes &amp;nbsp;Source</description></item><item><title>Compiling using Arduino IDE</title><link>https://spacehuhn.wiki/deauther/installation/compiling/</link><pubDate>Wed, 10 Jun 2020 16:41:17 +0200</pubDate><guid>https://spacehuhn.wiki/deauther/installation/compiling/</guid><description>First you have to install and open the Arduino IDE.
+🎬 /]</description></item><item><title>Compiling using Arduino IDE</title><link>https://spacehuhn.wiki/deauther/installation/compiling/</link><pubDate>Wed, 10 Jun 2020 16:41:17 +0200</pubDate><guid>https://spacehuhn.wiki/deauther/installation/compiling/</guid><description>First you have to install and open the Arduino IDE.
 In Arduino go to File -&amp;gt; Preferences add this URL in Additional Boards Manager URLs
 https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json (the screenshot below is using outdated URLs) Go to Tools -&amp;gt; Board -&amp;gt; Boards Manager, search &amp;ldquo;esp8266&amp;rdquo; and install esp8266 first, then arduino-esp8266-deauther
 Select your board at Tools -&amp;gt; Board and be sure it is at ESP8266 Deauther Modules (and not at ESP8266 Modules)!</description></item><item><title>Upload settings</title><link>https://spacehuhn.wiki/deauther/installation/upload/</link><pubDate>Wed, 10 Jun 2020 16:47:28 +0200</pubDate><guid>https://spacehuhn.wiki/deauther/installation/upload/</guid><description>Those are the recommended upload/compile settings for Arduino:
