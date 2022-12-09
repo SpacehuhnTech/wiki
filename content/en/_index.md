@@ -10,9 +10,17 @@ tags: []
 ---
 
 {{% notice info %}}
-This wiki is being replaced by our [new Blog](https://blog.spacehuhn.com/)
+This wiki is outdated! Check the links below for up-to-date documentation.
 {{% /notice %}}
 
+### ESP8266 Deauther: [deauther.com](https://deauther.com)  
+
+### WiFi Duck: [wifiduck.com](https://wifiduck.com)
+
+### USB Nova: [usbnova.com](https://usbnova.com)
+
+
+<!-- 
 {{% section deauther %}}
 ## [ESP8266 Deauther](deauther)
 ![ESP8266 Deauther Logo](/media/deauther_logo.png?height=100px)
@@ -36,3 +44,4 @@ frequently asked questions
 {{% /section %}}
 
 {{< footerbuttons >}}
+-->
